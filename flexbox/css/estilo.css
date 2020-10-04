@@ -10,13 +10,16 @@
     /* wrap, nowrap */
     
     flex-flow: row nowrap; 
-    /* Forma resumida de escrever o FLEX-DIRECTION e flex-wrap. */ 
+    /* Forma resumida de escrever o FLEX-DIRECTION e FLEX-WRAP. */ 
 
     justify-content: flex-start;
     /* flex-start, flex-end, center, space-betwen, space-around */
     
     align-items: stretch;
-    /* stretch, flex-items, flex-end, center, baseline */
+    /* stretch, flex-start, flex-end, center, baseline */
+
+    align-content: stretch;
+    /* stretch, flex-start, flex-end, center, space-between, space-around */
 
 
 }
@@ -33,4 +36,4 @@
 .article-03{order: 2; align-self: center ;} 
 
 /* aling-self: center
-center, flex-start, flex-end, baseline, stretch, auto(valor padrão)
+center, flex-start, flex-end, baseline, stretch, auto(valor padrão) 
